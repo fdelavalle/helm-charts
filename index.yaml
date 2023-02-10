@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.23.3
-    created: "2023-02-09T19:47:46.1193493-03:00"
+    created: "2023-02-10T13:56:20.3954687-03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -38,7 +38,7 @@ entries:
   postgres:
   - apiVersion: v2
     appVersion: "15.1"
-    created: "2023-02-09T19:47:46.1203496-03:00"
+    created: "2023-02-10T13:56:20.3954687-03:00"
     description: A Helm chart for PostgreSQL on Kubernetes
     digest: 889989623699d231e4e65d27a85daea1804642d0d4aa0cde991e348a74a6c21e
     maintainers:
@@ -48,23 +48,4 @@ entries:
     urls:
     - charts/postgres-0.4.1.tgz
     version: 0.4.1
-  redis:
-  - annotations:
-      app.kubesphere.io/category: Database & Cache
-    apiVersion: v1
-    appVersion: 6.0.9
-    created: "2023-02-09T19:47:46.1203496-03:00"
-    description: Redis is an open source (BSD licensed), in-memory data structure
-      store, used as a database, cache and message broker.
-    digest: 2ce9e59484ac1316bc1a59c6e490cd09bd923c73d76e99aa4685174966744723
-    icon: https://upload.wikimedia.org/wikipedia/en/6/6b/Redis_Logo.svg
-    maintainers:
-    - email: kubesphere@yunify.com
-      name: KubeSphere
-    name: redis
-    sources:
-    - https://github.com/kubesphere/helm-charts/tree/master/src/test/redis
-    urls:
-    - charts/redis-0.3.5.tgz
-    version: 0.3.5
-generated: "2023-02-09T19:47:46.1173495-03:00"
+generated: "2023-02-10T13:56:20.3934697-03:00"
