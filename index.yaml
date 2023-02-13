@@ -6,7 +6,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 2.4.55
-    created: "2023-02-10T16:14:01.8881609-03:00"
+    created: "2023-02-13T17:13:59.078321-03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -42,7 +42,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.23.3
-    created: "2023-02-10T16:14:01.8912751-03:00"
+    created: "2023-02-13T17:13:59.0803209-03:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -74,7 +74,7 @@ entries:
   postgres:
   - apiVersion: v2
     appVersion: "15.1"
-    created: "2023-02-10T16:14:01.8917932-03:00"
+    created: "2023-02-13T17:13:59.0843222-03:00"
     description: A Helm chart for PostgreSQL on Kubernetes
     digest: 889989623699d231e4e65d27a85daea1804642d0d4aa0cde991e348a74a6c21e
     maintainers:
@@ -84,4 +84,15 @@ entries:
     urls:
     - charts/postgres-0.4.1.tgz
     version: 0.4.1
-generated: "2023-02-10T16:14:01.8865956-03:00"
+  redis:
+  - apiVersion: v2
+    appVersion: 5-alpine
+    created: "2023-02-13T17:13:59.0843222-03:00"
+    description: A Helm chart for install Redis in Kubernetes
+    digest: 714c4b27f9585099b44aab58ff3a2d4f8b6b1ab308c8bff077ad46094565575f
+    name: redis
+    type: application
+    urls:
+    - charts/redis-0.2.1.tgz
+    version: 0.2.1
+generated: "2023-02-13T17:13:59.0763238-03:00"
